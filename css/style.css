@@ -1,13 +1,20 @@
 body{
-	font-size: 15px; background: silver;font-family: cursive;margin:0;
+	font-size: 15px;
+	background: silver;
+	font-family: cursive;
+	margin:0;
 	line-height: 5px;
 }
 h2,h3,h4,h5,h6,p,ul{
-	margin: 0.1%;padding: 0;
+	margin: 0.1%;
+	padding: 0;
 }
 header{
 	display: flex;flex-direction: row;
-	background: black; text-align: center;padding:2%;color: lightblue;
+	background: black;
+	text-align: center;
+	padding:2%;
+	color: lightblue;
 	margin-bottom: 0.2%;
 	}
 	header img{
@@ -25,17 +32,25 @@ header{
 	flex-direction: column-reverse;
 }
 .menubar{
-	background: lightgrey;padding: 0 1%;margin-bottom: 0.5%;
+	background: lightgrey;
+	padding: 0.1%;
+	margin-bottom: 0.5%;
 }
 .menubar ul{
-	display: flex;flex-flow: row wrap; list-style: none;
+	display: flex;
+	flex-flow: row wrap;
+	list-style: none;
 }
 .menubar ul li{
-	margin:1%; padding: 1%; background: silver;flex-grow: 10;
+	margin:1%;
+	 padding: 1%;
+	 background: silver;
+	 flex-grow: 10;
 	text-align: center;
 }
 .menubar ul li:hover{
-	background: blue; border-radius:50px;
+	background: lightblue;
+	border-radius:50px;
 }
 .menubar ul li:hover a{
 	color:white;
@@ -43,34 +58,41 @@ header{
 .menubar ul li a{color:black;text-decoration: none;}
 section{
 	background:lightyellow ;
-	justify-content: space-around;
-}
-
-section article h3{
-color: black;padding: 5%,5%; text-align: left;
 }
 section article p{
-	margin-top: 3%;text-align: center;
+  line-height: 20px;
 }
-section article.article-image p{
+article ol li{
+	line-height: 20px;
+}
+section .article-image p{
 	text-align: center;
 }
+
 section img{
-	width: 900px;height: auto;
+	width: 500px;
+	height: auto;
 }
 footer{
-  background:black; padding:0.1%;display: flex;justify-content: center;
+  background:black; padding:0.1%;
+	display: flex;
+	justify-content: center;
 }
 footer article{
-  background:beige;padding: 0.1%;width:30%;margin-left: 10px;
+  background:green;
+	padding: 0.1%;
+	width:30%;
+	margin-left: 10px;
 }
-footer article h3{background:lightgreen ;color:white;padding:2%;}
-footer article p{background: lightyellow;color:green;padding: 2%;}
+footer article h3{background:lightblue ;color:lightyellow;padding:2%;}
+footer article p{background: lightyellow;color:red;padding: 2%;}
 form{
-	display: flex;flex-direction: column;
+	display: flex;
+	flex-direction: column;
 }
 input[type=text]{
-	margin:10px;width: 200px;
+	margin:10px;
+	width: 200px;
 }
 input[type="submit"]{
 	width:80px;
