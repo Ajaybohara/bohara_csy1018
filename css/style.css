@@ -105,3 +105,19 @@ textarea{
 	width: 500px;
 margin-bottom:10px;
 }
+@media screen and (max-width:700px){
+	section .article-image p img{
+		max-width: 100%;
+	}
+	.menubar ul{
+		flex-direction: column;
+	}
+	footer article{
+		width:100%;
+		margin-left: 0;
+	}
+	footer article h3{background:lightblue ;color:lightyellow;
+	}
+	footer article p{background: lightyellow;color:red;
+	}
+}
